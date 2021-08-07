@@ -1,0 +1,17 @@
+name: dist
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  # required
+  - python=3.9
+  - python-dateutil>=2.5.0
+  - pip=20.3.1
+  - ipykernel
+  - jupyterlab
+  - notebook
+  - pytables
+  - pip:
+    - dask
+    - vaex
+    - pyspark
